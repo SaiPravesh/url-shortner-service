@@ -17,7 +17,7 @@ const IndexPage = () => (
                 This application provides a way to create a new unique short URL for any given long
                 URL, similar to bit.ly
             </p>
-            <p>This is a fullstack app, build using the following tech:</p>
+            <p>This is a fullstack app, built using the following tech:</p>
             <ul>
                 <li>
                     <b>Gatsby.js</b> for static site generation
