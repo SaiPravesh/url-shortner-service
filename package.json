@@ -6,8 +6,9 @@
     "scripts": {
         "server": "node server.js",
         "dev": "nodemon server.js",
-        "client": "npm start --prefix client",
-        "app": "concurrently \"npm run server\" \"npm run client\""
+        "client": "npm run clean --prefix client && npm run build --prefix client && npm run start --prefix client",
+        "app": "concurrently \"npm run server\" \"npm run develop --prefix client\"",
+        "production": "concurrently \"npm run server\" \"npm run client\""
     },
     "author": "savishnu",
     "license": "ISC",
