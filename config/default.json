@@ -1,4 +1,0 @@
-{
-    "MONGO_URI": "mongodb://root:root123@mongotest-shard-00-00-juetu.mongodb.net:27017,mongotest-shard-00-01-juetu.mongodb.net:27017,mongotest-shard-00-02-juetu.mongodb.net:27017/urls?ssl=true&replicaSet=mongoTest-shard-0&authSource=admin&retryWrites=true&w=majority",
-    "baseUrl": "http://localhost:5000"
-}
